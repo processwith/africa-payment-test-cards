@@ -12,6 +12,8 @@ A list of available test payment cards for various payment gateways. Please feel
 
 ## Flutterwave
 
+The following test cards are for Flutterwave as defined on their [developers site](https://developer.flutterwave.com/docs/test-cards). This include Test banks and some special cases.
+
 **OTP** : 12345
 
 Card type                         | Card Number                   | CVV       | Expiry      | PIN
@@ -41,13 +43,19 @@ Card Transaction Error                 |  5258589130149016      | 887       | 11
 
 #### Test Banks
 
-Bank                            | Account number    
-:------------------------------ |:---------------------
-
+Bank          | Account Number     | OTP      
+:----------------------------------|:-----------
+Access Bank     | 0690000031       | 12345
+Access Bank     | 0690000032       | same
+Access Bank     | 0690000033       | same
+Access Bank     | 0690000034       | same
+Providus Bank   | 5900102340       | same
+Providus Bank   | 5900002567       | same
 
 
 ## Paystack
-You can use the following test details to test different payment channels.
+
+The following test cards are for Paystack as defined on their [developers site](https://paystack.com/docs/payments/test-payments/).
 
 **OTP** : 123456
 
