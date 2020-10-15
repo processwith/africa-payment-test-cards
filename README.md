@@ -6,7 +6,7 @@ A list of available test payment cards for various payment gateways. Please feel
 
 - [Ravepay](#flutterwave)
 - [Paystack](#paystack)
-- [Payu]()
+- [Payu](#payu)
 - [Amplifypay]()
 - [Voguepay]()
 
