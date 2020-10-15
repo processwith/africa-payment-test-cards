@@ -43,8 +43,8 @@ Card Transaction Error                 |  5258589130149016      | 887       | 11
 
 #### Test Banks
 
-Bank          | Account Number     | OTP      
-:----------------------------------|:-----------
+Bank            | Account Number     | OTP      
+:---------------|:------------------|:-----------
 Access Bank     | 0690000031       | 12345
 Access Bank     | 0690000032       | same
 Access Bank     | 0690000033       | same
