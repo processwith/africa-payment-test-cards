@@ -4,13 +4,15 @@ A list of available test payment cards for various payment gateways. Please feel
 
 ## Quick Link
 
-- [Ravepay](#ravepay-flutterwave)
-- [Paystack]()
+- [Ravepay](#flutterwave)
+- [Paystack](#paystack)
 - [Payu]()
 - [Amplifypay]()
 - [Voguepay]()
 
-## Ravepay Flutterwave
+## Flutterwave
+
+**OTP** : 12345
 
 Card type                         | Card Number                   | CVV       | Expiry      | PIN
 :---------------------------------|:------------------------------|:----------|:------------|:---------
@@ -37,7 +39,7 @@ Incorrect PIN                          |  5399834697894723      | 883       | 09
 Verve - Card enrolment                 |  5531882884804517      | 564       | 10/32
 Card Transaction Error                 |  5258589130149016      | 887       | 11/30
 
-### Test Banks
+#### Test Banks
 
 Bank                            | Account number    
 :------------------------------ |:---------------------
@@ -47,9 +49,9 @@ Bank                            | Account number
 ## Paystack
 You can use the following test details to test different payment channels.
 
-**OTP** : 12345
+**OTP** : 123456
 
-### Successful Test Cards
+#### Successful Test Cards
 
 Case type                         | Card Number                   | CVV       | Expiry      | PIN
 :---------------------------------|:------------------------------|:----------|:------------|:---------
@@ -59,7 +61,7 @@ PIN + OTP validation(nonreusable) | 5060666666666666666           | 123       | 
 PIN + Phone + OTP validation      | 507850785078507804            | 884       | 10/21       | 0000
 Bank authorization Simulation     | 4084080000000409              | 000       | 10/31       | null
 
-### Fail Test Cards
+#### Fail Test Cards
 
 Case type           | Card Number                   | CVV       | Expiry      | PIN
 :-------------------|:------------------------------|:----------|:------------|:---------
@@ -68,15 +70,16 @@ Token Not Generated | 507850785078507853            | 082       | 10/21       | 
 500 error           | 5060660000000064              | 606       | 10/21       | null
 Timeout error       | 506066506066506067            | 060       | 10/21       | null
 
-### Test Banks Accounts
+#### Paystack Banks Accounts
 
 Bank                      | Account Number        | Birthday       | Code     
 :-------------------------|:----------------------|:---------------|:---------
 Zenith Bank(transaction)  | 0000000000            | 1999-10-14     | null 
 First Bank of Nigeria(transfer) | 0000000000      | null           | 011
 
-### Test Mobile Money
+#### Paystack Mobile Money
 
 Network        | Number                
 :--------------|:------------------
 MTN            | 0551234987        
+
