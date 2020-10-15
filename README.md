@@ -91,3 +91,17 @@ Network        | Number
 :--------------|:------------------
 MTN            | 0551234987        
 
+## PayU
+
+The following test cards are for PayU as defined on their [developers site](https://developers.payu.com/en/overview.html).
+
+Card type               | Card Number                | 3D Secure   | Behaviour
+:-----------------------|:---------------------------|:------------|:----------
+MasterCard              | 5434021016824014	         | no          | Positive Authorization
+MasterCard              | 5100052384536891	         | yes         | Positive Authorization
+MasterCard              | 5150030090050083           | yes         | Negative Authorization
+Visa                    | 4012001037141112           | no          | Positive Authorization
+Visa                    | 4012001007002005           | yes         | Positive Authorization
+Visa                    | 4000398284360              | yes         | Positive Authorization
+Maestro                 | 5000105018126595           | no          | Negative Authorization
+
